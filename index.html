@@ -40,23 +40,39 @@
                     life to help you realize your deepest dreams. Sign up
                     <span class="italic">now</span> to get started.
                 </p>
-                <p class="pad-top-bottom">You know you want to.</p>
+                <p class="pad-top-bottom">You <span class="italic">know</span> you want to.</p>
             </header>
             <form action="" id="signup" class="pad-sides">
-                <h2 class="pad-top-bottom">Let's do this!</h2>
+                <h2 class="form-heading pad-top-bottom">Let's do this!</h2>
                 <div class="form-fields-container">
-                    <label for="first">First Name</label>
-                    <label for="last">Last Name</label>
+                    <label for="first">FIRST NAME</label>
+                    <label for="last">LAST NAME</label>
                     <input type="text" name="first" id="first" />
                     <input type="text" name="last" id="last" />
-                    <label for="email">Email</label>
-                    <label for="phone">Phone Number</label>
+                    <label for="email">EMAIL</label>
+                    <label for="phone">PHONE NUMBER</label>
                     <input type="email" name="email" id="email" />
                     <input type="tel" name="phone" id="phone" />
-                    <label for="password">Password</label>
-                    <label for="confirm">Confirm Password</label>
-                    <input type="password" name="password" id="password" />
-                    <input type="password" name="confirm" id="confirm" />
+                    <label for="password">
+                        PASSWORD <span>(Must contain at least 8 characters)</span>
+                    </label>
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        minlength="8"
+                        maxlength="50"
+                        required
+                    />
+                    <input
+                        type="password"
+                        name="confirm"
+                        id="confirm"
+                        minlength="8"
+                        maxlength="50"
+                        required
+                    />
                 </div>
             </form>
             <div class="form-button-container pad-sides pad-top-bottom">

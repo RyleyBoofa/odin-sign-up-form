@@ -96,6 +96,10 @@ form {
     max-width: 67ch;
 }
 
+.form-heading {
+    color: #333;
+}
+
 .form-fields-container {
     display: flex;
     flex-wrap: wrap;
@@ -108,8 +112,32 @@ form {
     width: 40%;
 }
 
+.form-fields-container label {
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.2em;
+}
+
+.form-fields-container label span {
+    font-weight: normal;
+}
+
 .form-fields-container input {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25em;
     margin-bottom: 2em;
+    padding: 0 0.5em;
+}
+
+.form-fields-container input:focus {
+    outline: 2px solid #0080fe;
+    box-shadow: 2px 2px 2px 2px #0005;
+}
+
+.form-fields-container input:invalid {
+    outline: 1px solid #ed4337;
 }
 
 .form-button-container button {
