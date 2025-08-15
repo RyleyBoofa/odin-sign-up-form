@@ -8,7 +8,48 @@
         <script src="./src/script.js" defer></script>
     </head>
     <body>
-        <h1>Sign-Up Form</h1>
-        <p>Under construction...</p>
+        <div class="img-container">
+            <img
+                src="./assets/img/background.jpg"
+                alt="Close-up image of green leaf plant"
+                width="100%"
+            />
+            <div class="logo-container">
+                <img src="./assets/img/odin-lined.png" alt="The Odin Project Logo" width="20%" />
+                <span>ODIN</span>
+            </div>
+        </div>
+        <div class="content-container">
+            <header class="header-container">
+                <p>
+                    This is not a real online service! You know you need something like this in your
+                    life to help you realize your deepest dreams. Sign up now to get started.
+                </p>
+                <p>You know you want to.</p>
+            </header>
+            <form action="">
+                <h2>Let's do this!</h2>
+                <div class="form-fields-container">
+                    <label for="first">First Name</label>
+                    <input type="text" name="first" id="first" />
+                    <label for="last">Last Name</label>
+                    <input type="text" name="last" id="last" />
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" />
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" id="confirm" />
+                </div>
+                <div class="form-button-container">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+            <div class="login-container">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
     </body>
 </html>
