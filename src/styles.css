@@ -44,7 +44,29 @@ form {
 
 .img-container {
     position: relative;
-    max-width: 40%;
+    height: 100vh;
+}
+
+.img-container img {
+    height: 100%;
+    width: auto;
+}
+
+.img-credit-container {
+    background-color: #0006;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 5%;
+}
+
+.img-credit-container a {
+    color: inherit;
+    font-weight: bold;
 }
 
 .logo-container {
