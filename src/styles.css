@@ -18,7 +18,8 @@ body {
     background-color: #eee;
 }
 
-button {
+button,
+input {
     font: inherit;
 }
 
@@ -55,6 +56,7 @@ form {
 .img-credit-container {
     background-color: #0006;
     color: #eee;
+    font-size: clamp(0.6rem, 0.5rem + 1vw, 1.2rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +75,7 @@ form {
     background-color: #0006;
     color: #fff;
     font-family: "Norse", "Arial", sans-serif;
-    font-size: 8rem;
+    font-size: clamp(1.5rem, 1rem + 5vw, 10rem);
     position: absolute;
     bottom: 67%;
     width: 100%;
@@ -92,7 +94,7 @@ form {
 }
 
 .header-container {
-    font-size: 1.5rem;
+    font-size: clamp(0.8rem, 1rem + 0.5vw, 1.6rem);
     font-weight: bold;
     line-height: 1.25;
     height: 33%;
@@ -103,8 +105,12 @@ form {
 }
 
 .form-heading,
-.form-fields-container label {
+.form-field label {
     color: #333;
+}
+
+.form-heading {
+    font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
 }
 
 .form-fields-container {
@@ -124,7 +130,7 @@ form {
 }
 
 .form-field label {
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 0.5rem + 0.5vw, 1rem);
     font-weight: bold;
     letter-spacing: 0.1rem;
     margin-bottom: 0.2em;
@@ -134,10 +140,15 @@ form {
     font-weight: normal;
 }
 
+.form-field input,
+.form-button-container button,
+.login-container {
+    font-size: clamp(0.8rem, 0.5rem + 1vw, 1.5rem);
+}
+
 .form-field input {
     border: 1px solid #e5e7eb;
     border-radius: 0.25em;
-    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 2rem;
     padding: 0 0.5em;
@@ -158,7 +169,7 @@ form {
     border: none;
     border-radius: 0.5em;
     font-weight: bold;
-    padding: 1em 4em;
+    padding: 0.75em 2em;
 }
 
 .form-button-container button:hover,
