@@ -7,8 +7,8 @@ Live preview can be found [here](https://ryleyboofa.github.io/odin-sign-up-form/
 
 ## New skills used
 
--   HTML: forms including various labels, input types and constraints
--   CSS: form styling, absolute and relative positioning, custom font-face, size and spacing with realtive units
+-   HTML: Forms with various labels, input types, and constraints
+-   CSS: Form styling, absolute and relative positioning, custom font-face, size and spacing with relative units
 
 ## References
 
