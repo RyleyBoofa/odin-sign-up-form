@@ -45,32 +45,46 @@
             <form action="" id="signup" class="pad-sides">
                 <h2 class="form-heading pad-top-bottom">Let's do this!</h2>
                 <div class="form-fields-container">
-                    <label for="first">FIRST NAME</label>
-                    <label for="last">LAST NAME</label>
-                    <input type="text" name="first" id="first" />
-                    <input type="text" name="last" id="last" />
-                    <label for="email">EMAIL</label>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="email" name="email" id="email" />
-                    <input type="tel" name="phone" id="phone" />
-                    <label for="password"> PASSWORD <span>(Minimum 8 characters)</span> </label>
-                    <label for="confirm">CONFIRM PASSWORD</label>
-                    <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        minlength="8"
-                        maxlength="40"
-                        required
-                    />
-                    <input
-                        type="password"
-                        name="confirm"
-                        id="confirm"
-                        minlength="8"
-                        maxlength="40"
-                        required
-                    />
+                    <div class="form-field">
+                        <label for="first">FIRST NAME</label>
+                        <input type="text" name="first" id="first" autocomplete="given-name" />
+                    </div>
+                    <div class="form-field">
+                        <label for="last">LAST NAME</label>
+                        <input type="text" name="last" id="last" autocomplete="family-name" />
+                    </div>
+                    <div class="form-field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" autocomplete="email" />
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" autocomplete="tel" />
+                    </div>
+                    <div class="form-field">
+                        <label for="password"> PASSWORD <span>(Minimum 8 characters)</span> </label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            minlength="8"
+                            maxlength="40"
+                            required
+                            autocomplete="new-password"
+                        />
+                    </div>
+                    <div class="form-field">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input
+                            type="password"
+                            name="confirm"
+                            id="confirm"
+                            minlength="8"
+                            maxlength="40"
+                            required
+                            autocomplete="new-password"
+                        />
+                    </div>
                 </div>
             </form>
             <div class="form-button-container pad-sides pad-top-bottom">

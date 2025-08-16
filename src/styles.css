@@ -111,25 +111,30 @@ form {
     display: flex;
     flex-wrap: wrap;
     column-gap: 5%;
+    max-width: 67%;
 }
 
-.form-fields-container label,
-.form-fields-container input {
-    width: 33%;
+.form-field {
+    flex: 1 1 40%;
 }
 
-.form-fields-container label {
+.form-field label,
+.form-field input {
+    width: 100%;
+}
+
+.form-field label {
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     margin-bottom: 0.2em;
 }
 
-.form-fields-container label span {
+.form-field label span {
     font-weight: normal;
 }
 
-.form-fields-container input {
+.form-field input {
     border: 1px solid #e5e7eb;
     border-radius: 0.25em;
     font-size: 1.5rem;
@@ -138,12 +143,12 @@ form {
     padding: 0 0.5em;
 }
 
-.form-fields-container input:focus {
+.form-field input:focus {
     outline: 2px solid #0080fe;
     box-shadow: 2px 2px 2px 2px #0005;
 }
 
-.form-fields-container input:invalid {
+.form-field input:invalid {
     outline: 1px solid #ed4337;
 }
 

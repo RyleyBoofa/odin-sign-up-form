@@ -3,6 +3,8 @@
 Sign-up form for an imaginary service, built as my solution to The Odin Project's [Project: Sign-Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 The goal of this project was to practice designing and styling HTML forms by recreating the sign-up form as seen in the reference image below.
 
+Live preview can be found [here](https://ryleyboofa.github.io/odin-sign-up-form/).
+
 ## New skills used
 
 -   HTML: forms including various labels, input types and constraints
